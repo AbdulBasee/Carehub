@@ -55,9 +55,9 @@ $ 80 Million
 
 **Required Must-have Stories**
 
-* User can sign up and create an account. 
-* User can sign in and out.
-* User receives daily health-related quotes once loginto their account.
+*[x] User can sign up and create an account. 
+*[x] User can sign in and out.
+*[x] User receives daily health-related quotes once loginto their account.
 * User can read articles based on the mood they search for such as happiness, sadness, depression.
 * User can connect with people who are also suffering from depression.
 * User can look up for nearby therphists and health experts to take recommendations.
