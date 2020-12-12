@@ -108,6 +108,9 @@ My Profile: This page allows the user to edit their profile infromation and upda
 <img src="https://github.com/snehamsuresh/Care-Hub/blob/main/carehub2.png" width=600>
 <img src="https://github.com/snehamsuresh/Care-Hub/blob/main/carehub3.png" width=600>
 
+<img src="https://github.com/AbdulBasee/Carehub/blob/master/tutorialwalkthorugh.gif" width=600>
+
+
 ### [BONUS] Interactive Prototype
 
 ## Schema 
