@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/signup_background"/>
+    <item android:drawable="@drawable/ic_register_icon"
+        android:gravity="center"
+        android:bottom="@dimen/signup_logo_top_padding"/>
+
+    <item android:drawable="@drawable/ic_register_text"
+        android:gravity="center"
+        android:bottom="@dimen/sinnup_text_top_padding"/>
+</layer-list>

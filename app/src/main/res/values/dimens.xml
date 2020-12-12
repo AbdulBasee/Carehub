@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="carehublogo_top_padding">250dp</dimen>
+    <dimen name="signup_logo_top_padding">450dp</dimen>
+    <dimen name = "sinnup_text_top_padding">260dp</dimen>
+    <dimen name="profileActivity_text1_top_padding">350dp</dimen>
+    <dimen name="profileActivity_text2_top_padding">230dp</dimen>
+    <dimen name="prfilepic_topPadding">100dp</dimen>
+
+
+
+
+
+</resources>

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Carehub</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">pKtpH1y4vmrmE8iHOokBqhLXfDFUQczY2givoE76</string>
+    <string name="back4app_client_key">ZFlBsClpYocD9uCI0bzz8tVPCGVALDEKqDX1KAjV</string>
+
+
 </resources>

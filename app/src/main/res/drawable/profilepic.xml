@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ic_profilepic"
+        android:bottom="200dp"
+        android:height="1500dp"
+        android:width="1500dp"/>
+
+
+    <item android:drawable="@drawable/ic_peopleicon"
+        android:gravity="center"
+        android:bottom="210dp"
+        android:height="500dp"
+        android:width="500dp"
+        />
+
+
+
+</layer-list>

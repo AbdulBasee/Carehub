@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:drawable="@drawable/login_background"/>
+    <item android:drawable="@drawable/ic_icons"
+        android:gravity="center"
+        android:bottom="@dimen/carehublogo_top_padding"
+        />
+    <item android:drawable="@drawable/ic_logintext"
+        android:gravity="center"/>
+
+</layer-list>

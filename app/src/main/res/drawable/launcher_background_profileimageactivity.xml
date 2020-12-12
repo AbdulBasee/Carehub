@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/profile_image_background"/>
+    <item android:drawable="@drawable/ic_profileactivitytext"
+        android:gravity="center"
+        android:bottom="@dimen/profileActivity_text1_top_padding"/>
+<!--    <item android:drawable="@drawable/ic_profileactivitytext2"-->
+<!--        android:gravity="center"-->
+<!--        android:bottom="@dimen/profileActivity_text2_top_padding"-->
+<!--        android:left="50dp"-->
+<!--        android:right="50dp"/>-->
+
+
+</layer-list>
