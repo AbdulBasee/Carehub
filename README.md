@@ -55,9 +55,9 @@ $ 80 Million
 
 **Required Must-have Stories**
 
-* User can sign up and create an account. 
-* User can sign in and out.
-* User receives daily health-related quotes once loginto their account.
+- [x] User can sign up and create an account. 
+- [x] User can sign in and out.
+- [x]User receives daily health-related quotes once loginto their account.
 * User can read articles based on the mood they search for such as happiness, sadness, depression.
 * User can connect with people who are also suffering from depression.
 * User can look up for nearby therphists and health experts to take recommendations.
@@ -84,9 +84,11 @@ My Profile: This page allows the user to edit their profile infromation and upda
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* User is prompted to sinup and create an account.
+* Once the user creates the account, they can log in to home screen
+* In the homepage, they can navigate between hub page and profile page. 
+* In the hub page the user can match with the desired person. 
+* In the profile page, the user can change their user name and profile pic.
 
 **Flow Navigation** (Screen to Screen)
 
@@ -95,9 +97,7 @@ My Profile: This page allows the user to edit their profile infromation and upda
    *HomePage
    *Connect Page
    *
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
