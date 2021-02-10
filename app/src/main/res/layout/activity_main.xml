@@ -7,47 +7,314 @@
     android:background="@drawable/login_background"
     tools:context=".MainActivity">
 
-   <LinearLayout
-       android:layout_width="100dp"
-       android:layout_height="100dp"
-       android:orientation="vertical">
+    <!--    <Spinner-->
+    <!--        android:layout_width="196dp"-->
+    <!--        android:layout_height="39dp"-->
+    <!--        android:layout_below="@+id/textView2"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginEnd="179dp"/>-->
 
-       <View
-           android:layout_width="50.44dp"
-           android:layout_height="3.36dp"
-           android:background="#AF3B6E"
-           android:layout_marginTop="50dp"
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearLayout"-->
+<!--        android:layout_width="@dimen/llayoutHomeLayout_width"-->
+<!--        android:layout_height="@dimen/llayoutHomeLayout_height"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
 
-           android:layout_marginLeft="23dp"
-           />
-       <View
-           android:layout_width="36.44dp"
-           android:layout_height="3.36dp"
-           android:background="#AF3B6E"
-           android:layout_marginTop="3dp"
+<!--        <View-->
+<!--            android:id="@+id/line1"-->
+<!--            android:layout_width="@dimen/view1_width"-->
+<!--            android:layout_height="@dimen/view1_height"-->
+<!--            android:layout_marginStart="@dimen/view1_marginleft"-->
+<!--            android:layout_marginTop="@dimen/view1_margin_top"-->
 
-           android:layout_marginLeft="23dp"
-           />
-       <View
-           android:layout_width="22.44dp"
-           android:layout_height="3.36dp"
-           android:background="#AF3B6E"
-           android:layout_marginTop="3dp"
+<!--            android:background="#AF3B6E" />-->
 
-           android:layout_marginLeft="23dp"
-           />
-   </LinearLayout>
+<!--        <View-->
+<!--            android:id="@+id/line3"-->
+<!--            android:layout_width="@dimen/view2_layout_width"-->
+<!--            android:layout_height="@dimen/view2_layout_height"-->
+<!--            android:layout_marginStart="@dimen/view2_margin_left"-->
+<!--            android:layout_marginTop="@dimen/view2_margin_top"-->
 
-    <ImageView
-        android:layout_marginTop="50dp"
-        android:layout_marginRight="500dp"
-        android:id="@+id/imageView"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="159dp"
-        android:layout_marginEnd="4dp"
-        android:background="@drawable/ic_notification" />
+<!--            android:background="#AF3B6E" />-->
+
+<!--        &lt;!&ndash;        <View&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:id="@+id/lin2"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_width="10dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_height="3.36dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_marginLeft="23dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_marginTop="3dp"&ndash;&gt;-->
+
+<!--        &lt;!&ndash;            android:background="#AF3B6E" />&ndash;&gt;-->
+<!--    </LinearLayout>-->
+
+<!--    <ImageView-->
+
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_alignParentTop="true"-->
+
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:layout_marginEnd="28dp"-->
+<!--        android:background="@drawable/ic_notification"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/goodafternoonTextview"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="66dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="116dp"-->
+<!--        android:layout_marginEnd="2dp"-->
+<!--        android:background="@drawable/goodafternoon"-->
+<!--        android:fontFamily="@font/quicksand_bold"-->
+
+<!--        android:gravity="center"-->
+<!--        android:paddingBottom="@dimen/tvViewGoodaftrnonpaddingbtm"-->
+<!--        android:text="@string/good_afternoon"-->
+<!--        android:textColor="#FBDFF9"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintDimensionRatio="w,13:4"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/guideline4"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/guideline"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/virtualSpeaker"-->
+<!--        android:layout_width="@dimen/imgViewvirtualSpkr_width"-->
+<!--        android:layout_height="@dimen/imgViewvirtualSpkr_height"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="2dp"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:layout_marginEnd="15dp"-->
+<!--        android:background="@drawable/ic_virtual_speaker"-->
+<!--        android:paddingLeft="@dimen/imgViewvirtualSpkr_padnglft"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/guideline3"-->
+<!--        app:layout_constraintHorizontal_bias="0.476"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/guideline4"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvViewHowyoufeel"-->
+
+<!--        android:layout_width="@dimen/tvViewHowyoufeelWidth"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/goodafternoonTextview"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="12dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:fontFamily="@font/quicksand_medium"-->
+
+<!--        android:text="@string/how_are_you_feeling"-->
+<!--        android:textColor="#92278F"-->
+<!--        android:textSize="19sp"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/goodafternoonTextview"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/goodafternoonTextview" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatSpinner-->
+<!--        android:id="@+id/spinner1Homepage"-->
+<!--        android:layout_width="@dimen/spinner1HomepageWidth"-->
+<!--        android:layout_height="@dimen/spinner1HomepageHeight"-->
+<!--        android:layout_below="@+id/tvViewHowyoufeel"-->
+<!--        android:layout_alignParentStart="true"-->
+
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="5dp"-->
+<!--        android:background="@drawable/style_spinner1homepage"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/guideline4"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/tvViewHowyoufeel"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tvViewHowyoufeel" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/chekinbtn"-->
+
+<!--        android:layout_width="@dimen/chekinbtnWidth"-->
+<!--        android:layout_height="@dimen/chekinbtnHeight"-->
+<!--        android:layout_below="@+id/virtualSpeaker"-->
+
+<!--        android:layout_marginStart="2dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:layout_marginEnd="4dp"-->
+<!--        android:layout_toEndOf="@+id/spinner1Homepage"-->
+<!--        android:background="@drawable/check_in_btn_homepage"-->
+<!--        android:fontFamily="@font/quicksand"-->
+<!--        android:text="@string/check_in"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/guideline3"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/guideline4"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/virtualSpeaker" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/calenderIcon"-->
+<!--        android:layout_width="@dimen/calenderIconWidth"-->
+<!--        android:layout_height="@dimen/calenderIconheight"-->
+<!--        android:layout_below="@+id/spinner1Homepage"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:background="@drawable/ic_calender_icon"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/spinner1Homepage"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/spinner1Homepage" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvViewtodayis"-->
+<!--        android:layout_width="@dimen/tvViewtodayisWidth"-->
+
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:layout_below="@+id/spinner1Homepage"-->
+
+<!--        android:layout_marginStart="28dp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:layout_toEndOf="@+id/calenderIcon"-->
+<!--        android:fontFamily="@font/quicksand_medium"-->
+<!--        android:text="@string/today_is"-->
+<!--        android:textColor="#92278F"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/calenderIcon"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/spinner1Homepage" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textviewCalender"-->
+<!--        style="normal"-->
+<!--        android:layout_width="@dimen/tvViewDateWidth"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/chekinbtn"-->
+<!--        android:layout_alignParentEnd="true"-->
+
+<!--        android:layout_marginStart="7dp"-->
+
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:layout_marginEnd="15dp"-->
+<!--        android:fontFamily="@font/quicksand_medium"-->
+<!--        android:text="@string/saturday_19_dec_2020"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/guideline3"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/tvViewtodayis"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/chekinbtn" />-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearlayout_quotes"-->
+<!--        android:layout_width="323dp"-->
+
+<!--        android:layout_height="230dp"-->
+<!--        android:layout_below="@+id/textviewCalender"-->
+<!--        android:layout_alignParentStart="true"-->
+
+<!--        android:layout_marginTop="28dp"-->
+<!--        android:layout_marginEnd="15dp"-->
+<!--        android:background="@drawable/edittext_quotes"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/guideline3"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/spinner1Homepage"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tvViewtodayis">-->
+
+<!--        <ImageView-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="@dimen/mushroomimgheight"-->
+<!--            android:layout_marginStart="@dimen/mushroomimgmrgnleft"-->
+<!--            android:background="@drawable/ic_mushroom_pic"-->
+
+<!--            />-->
+
+<!--        <TextView-->
+
+<!--            android:layout_width="@dimen/dayQuoteWidth"-->
+<!--            android:layout_height="@dimen/dayQuoteHeight"-->
+<!--            android:layout_marginStart="@dimen/dayQuotemrgnStrt"-->
+<!--            android:background="#FFD2FC"-->
+<!--            android:fontFamily="@font/quicksand_bold"-->
+<!--            android:gravity="center"-->
+<!--            android:inputType="textMultiLine"-->
+<!--            android:text="@string/quote_of_the_day"-->
+<!--            android:textColor="#82157F" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvViewquote"-->
+<!--            style="normal"-->
+<!--            android:layout_width="231dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="@dimen/realQuotemrgnStrt"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:lineHeight="17.5dp"-->
+<!--            android:paddingTop="@dimen/realQuotePaddngtop"-->
+<!--            android:text="@string/nothing_is_impossible_the_word_itself_says_i_m_possible"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="15sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textViewAuthor"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:fontFamily="@font/quicksand_bold"-->
+<!--            android:text="Andrew"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="14dp" />-->
+
+
+<!--    </LinearLayout>-->
+
+<!--    <androidx.constraintlayout.widget.Guideline-->
+<!--        android:id="@+id/guideline"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintGuide_begin="16dp" />-->
+
+<!--    <androidx.constraintlayout.widget.Guideline-->
+<!--        android:id="@+id/guideline3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintGuide_end="28dp" />-->
+
+<!--    <androidx.constraintlayout.widget.Guideline-->
+<!--        android:id="@+id/guideline4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintGuide_begin="256dp" />-->
+
+
+    <FrameLayout
+        android:id="@+id/flContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#531B4F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_bottom_navigation"
+        tools:ignore="MissingConstraints" />
 
 
 </RelativeLayout>

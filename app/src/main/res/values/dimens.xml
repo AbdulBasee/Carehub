@@ -7,6 +7,127 @@
     <dimen name="profileActivity_text1_top_padding">350dp</dimen>
     <dimen name="profileActivity_text2_top_padding">230dp</dimen>
     <dimen name="prfilepic_topPadding">100dp</dimen>
+    <dimen name="dropdownmenuHomepage">29dp</dimen>
+    <dimen name="login_btn">200dp</dimen>
+    <dimen name="login_btn_marginleft">80dp</dimen>
+    <dimen name="login_btn_margintop">20dp</dimen>
+    <dimen name="login_btn_marginbottom">15dp</dimen>
+    <dimen name="editText_pass_margin_btm">10dp</dimen>
+    <dimen name="edPassword_padding">10dp</dimen>
+    <dimen name="llayout_loginpage_margintop_">400dp</dimen>
+    <dimen name="llayout_loginpage_padding">30dp</dimen>
+    <dimen name="eduser_name_margin_btm">10dp</dimen>
+    <dimen name="eduser_name_padding">10dp</dimen>
+    <dimen name="edNameMargin_btm">10dp</dimen>
+    <dimen name="edpasswordMargin_btm">10dp</dimen>
+    <dimen name="btn_margin_btm">10dp</dimen>
+    <dimen name="llayoutHomeLayout_width">100dp</dimen>
+    <dimen name="llayoutHomeLayout_height">100dp</dimen>
+    <dimen name="view1_width">36.44dp</dimen>
+    <dimen name="view1_height">3.36dp</dimen>
+    <dimen name="view1_marginleft">23dp</dimen>
+    <dimen name="view1_margin_top">50dp</dimen>
+    <dimen name="view2_layout_width">50dp</dimen>
+    <dimen name="view2_layout_height">50dp</dimen>
+    <dimen name="view2_margin_left">50dp</dimen>
+    <dimen name="view2_margin_top">50dp</dimen>
+
+    <dimen name="tviewhomewidth">204.18dp</dimen>  // good afternoon width
+    <dimen name="tvview_height">100dp</dimen>
+    <dimen name="tvview_marginstart">43dp</dimen>
+    <dimen name="tvViewGoodaftrnonmargintop">100dp</dimen>
+    <dimen name="tvViewGoodaftrnonpaddingbtm">30dp</dimen>
+    <dimen name="imgViewvirtualSpkr_width">90dp</dimen>
+    <dimen name="imgViewvirtualSpkr_height">100dp</dimen>
+    <dimen name="imgViewvirtualSpkr_margntop">99dp</dimen>
+    <dimen name="imgViewvirtualSpkr_margnend">51dp</dimen>
+    <dimen name="imgViewvirtualSpkr_padnglft">10dp</dimen>
+
+    // hompage three lines linear layout width
+    <dimen name="llayoutlayoutThreeDotmarginStart">0dp</dimen>
+    <dimen name="llayoutlayoutThreeDotMargintop">0dp</dimen>
+
+    // homepage textview how you feel dimensions
+    <dimen name="tvViewHowyoufeelWidth">200dp</dimen>
+    <dimen name="tvViewHowyoufeelMargnStrt">46dp</dimen>
+    <dimen name="tvViewHowyoufeelMargntop">24dp</dimen>
+
+    // spinner dimensions
+    <dimen name="spinner1HomepageWidth">196dp</dimen>
+    <dimen name="spinner1HomepageHeight">41dp</dimen>
+    <dimen name="spinner1HomepagemrgnStrt">41dp</dimen>
+    <dimen name="spinner1HomepageMrgntop">20dp</dimen>
+    <dimen name="spinner1HomepageMrgnend">14dp</dimen>
+
+    // check in button homepage
+    <dimen name="chekinbtnWidth">117.9dp</dimen>
+    <dimen name="chekinbtnHeight">36dp</dimen>
+    <dimen name="chekinbtnmrgntop">76dp</dimen>
+    <dimen name="chekinbtnmrgnend">40dp</dimen>
+
+    // calender icon dimensions
+    <dimen name="calenderIconWidth">18dp</dimen>
+    <dimen name="calenderIconheight">20dp</dimen>
+    <dimen name="calenderIconmrgnStrt">64dp</dimen>
+    <dimen name="calenderIconmrgntop">14dp</dimen>
+    <dimen name="calenderIconmargnbtm">20dp</dimen>
+
+    // text view today is
+    <dimen name="tvViewtodayisWidth">100dp</dimen>
+    <dimen name="tvViewtodayismargnstrt">28dp</dimen>
+    <dimen name="tvViewtodayisMrgntop">12dp</dimen>
+
+    // today's date text view homepage
+    <dimen name="tvViewDateWidth">196.05dp</dimen>
+    <dimen name="tvViewDatemargnstrt">92dp</dimen>
+    <dimen name="tvViewDateMrgntop">12dp</dimen>
+
+    // linear layout homepage conaining the quotes of the day
+
+    <dimen name="linearlayout_quotesWidth">321dp</dimen>
+    <dimen name="linearlayout_quotesheight">192dp</dimen>
+    <dimen name="linearlayout_quotesmrgnstrt">43dp</dimen>
+    <dimen name="linearlayout_quotesmrgnend">43dp</dimen>
+    <dimen name="linearlayout_quotesmrgntop">8dp</dimen>
+    <dimen name="linearlayout_quotesmargin_end">40dp</dimen>
+
+    // image inside quote linear layout homepage
+
+    <dimen name="mushroomimgheight">87dp</dimen>
+    <dimen name="mushroomimgmrgnleft">90dp</dimen>
+
+    // text view quote of the day homepage
+
+    <dimen name="dayQuoteWidth">209dp</dimen>
+    <dimen name="dayQuoteHeight">19.45dp</dimen>
+    <dimen name="dayQuotemrgnStrt">47dp</dimen>
+
+    // text view the quote
+
+    <dimen name="realQuoteWidth">232dp</dimen>
+    <dimen name="realQuoteHeight">72dp</dimen>
+    <dimen name="realQuotemrgnStrt">47dp</dimen>
+    <dimen name="realQuotePaddngtop">10dp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

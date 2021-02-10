@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home_icon"
+        android:title="Home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_hubs"
+        android:icon="@drawable/ic_hubs"
+        android:title="Hubs"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_wellness"
+        android:icon="@drawable/ic_wellness"
+        android:title="Wellness"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_matching"
+        android:icon="@drawable/ic_match"
+        android:title="Matching"
+        app:showAsAction="always" />
+</menu>
